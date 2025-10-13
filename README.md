@@ -4,13 +4,12 @@
 
 # Simple Intro
 
-simple theme for hugo
+Simple theme for hugo.
 
-![intro](https://raw.githubusercontent.com/gangjun06/SimpleIntro/master/images/screenshot.png)
+Its based on [qub1750ul/hugo-simpleIntro](https://github.com/qub1750ul/hugo-simpleIntro) Fork
 
-# Live Demo
+![intro](images/screenshot.png)
 
-https://gangjun06.github.io/SimpleIntroDemo
 
 # Get Started
 
@@ -19,7 +18,6 @@ hugo new site <site-name>
 cd <site-name>
 git submodule add https://github.com/gangjun06/SimpleIntro themes/SimpleIntro
 ```
-
 # Configuration
 
 Check out the config files included on the [exampleSite](exampleSite)
@@ -33,5 +31,6 @@ Check out the config files included on the [exampleSite](exampleSite)
 
 # ETC.
 
-It seems that I made this project and neglected it too much.
-So I am modifying the code little by little in the new branch
+This fork has an additional section for Talks with slides and videos links.
+It contains also an implemention of the Matomo-Hugo [holehan/hugo-component-matomo](https://github.com/holehan/hugo-component-matomo).
+I implemted those for my personal website under [www.antonmueller.xyz](https://www.antonmueller.xyz).

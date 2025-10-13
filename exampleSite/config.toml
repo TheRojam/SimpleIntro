@@ -9,6 +9,9 @@ publishDir = "public"
     name = "John Doe"
     mainTitle = "Simple-intro"
     mainText = "Just simple intro theme for hugo"
+[params.matomo]
+   url = "https://example.org"
+   id = 1
 
 [menus]
     [[menu.main]]
