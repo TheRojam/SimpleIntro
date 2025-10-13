@@ -145,6 +145,9 @@
             <p class="text-gray-700 text-base px-6 pb-4">
               {{ replace .text "\n" "<br />" | safeHTML }}
             </p>
+	    <p class="text-gray-700 text-base px-6 pb-4">
+	    <b><a href="{{ .slides }}" target="_blank">Slides (PDF)</a></b> |  {{ if $data.talks.video }} <a hre="{{$data.talks.video}}" target="_blank">Recording</a> {{else}} Talk was not recorded.{{end}}
+	    </p>
           </div>
         </div>
         {{end}}
